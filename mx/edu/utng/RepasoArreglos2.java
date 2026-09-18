@@ -17,10 +17,16 @@ public class RepasoArreglos2 {
 		nombres[2][0] = "Yaneli";
                 nombres[2][1] = "Sanchez Cardenas";
                 nombres[2][2] = "19";  
-		
+		System.out.println("nombres: \n");
 		for (int i = 0; i < nombres.length; i++) {
     		System.out.println(nombres[i][0]);
 		}	
+		
+
+		System.out.println("apellidos: \n");
+		for (int i = 0; i < nombres.length; i++) {
+                System.out.println(nombres[i][1]);
+                }
 
     }
 }
